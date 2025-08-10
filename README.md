@@ -4,7 +4,7 @@
 **Project Type:** Data Science / Machine Learning  
 **Tech Stack:** Python, TensorFlow/Keras, Pandas, Scikit-learn, Matplotlib 
 
-## 📌 Project Overview
+## Project Overview
 Fatigue is one of the most common somatic symptoms reported in both clinical and community populations. It affects daily functioning and quality of life, and is influenced by multiple psychosocial and demographic factors.
 
 This project aims to **predict the presence of fatigue** using a feedforward neural network model trained on the publicly available **EAMMi2 dataset** (Grahe et al., 2018).  
@@ -13,7 +13,7 @@ The goal is to demonstrate practical machine learning skills, from data preproce
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source:** [EAMMi2 Dataset – Open Psychology Data](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.38/)
 - **Size:** ~2,500 participants  
 - **Features:** Psychosocial scale scores, demographic information  
