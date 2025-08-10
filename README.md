@@ -1,15 +1,19 @@
 # somatic-capstone-project
 
-**Author:** Miao Yu 
+**Author:** Miao Yu, Jessica Tanchone 
+
 **Project Type:** Data Science / Machine Learning  
+
 **Tech Stack:** Python, TensorFlow/Keras, Pandas, Scikit-learn, Matplotlib 
 
 ## Project Overview
-Fatigue is one of the most common somatic symptoms reported in both clinical and community populations. It affects daily functioning and quality of life, and is influenced by multiple psychosocial and demographic factors.
+This project aims to predict **fatigue**, a common somatic symptom, using psychosocial and demographic variables from the publicly available **EAMMi2 dataset** (Grahe et al., 2018).  
+Two main modeling approaches are implemented and compared:
+1. **Traditional machine learning models** (Random Forest, Logistic Regression, K-Nearest Neighbors)
+2. **Neural network models** (Feedforward network with Keras/TensorFlow)
 
-This project aims to **predict the presence of fatigue** using a feedforward neural network model trained on the publicly available **EAMMi2 dataset** (Grahe et al., 2018).  
+The goal is to evaluate which modeling approach yields better predictive performance and identify the most important predictors of fatigue.
 
-The goal is to demonstrate practical machine learning skills, from data preprocessing to model evaluation and interpretation.
 
 ---
 
@@ -25,20 +29,25 @@ The dataset is included in `data/` for reproducibility. Only variables necessary
 ---
 
 ## Methods
-1. **Data Cleaning & Preprocessing**
-   - Handling missing values with `SimpleImputer`
-   - Scaling features with `StandardScaler`
-   - Stratified train-test split (70% / 30%)
 
-2. **Model**
-   - Framework: TensorFlow’s Keras API
-   - Architecture:
-     - Input layer: 24 features
-     - Hidden layers: 64 → 32 units, ReLU activation
-     - Dropout (rate=0.3) to reduce overfitting
-     - Output layer: Sigmoid activation (binary classification)
-   - Optimizer: Adam (learning rate=0.001)
-   - Loss: Binary cross-entropy
+### 1. **Data Preprocessing**
+- Missing values handled with mean/mode imputation
+- Categorical variables one-hot encoded
+- Continuous variables scaled using `StandardScaler`
+- Addressed class imbalance with **SMOTE** oversampling
+
+### 2. **Models Implemented**
+- **Logistic Regression** (baseline)
+- **Random Forest Classifier**
+- **K-Nearest Neighbors**
+- **Feedforward Neural Network** (2 hidden layers, dropout regularization)
+
+### 3. **Evaluation Metrics**
+- Accuracy
+- Balanced Accuracy
+- Precision, Recall, F1-score
+- ROC-AUC
+- Confusion Matrix
 
 3. **Evaluation**
    - Accuracy
