@@ -18,10 +18,10 @@ The goal is to evaluate which modeling approach yields better predictive perform
 ---
 
 ## Dataset
-- **Source:** [EAMMi2 Dataset – Open Psychology Data](https://openpsychologydata.metajnl.com/articles/10.5334/jopd.38/)
-- **Size:** ~2,500 participants  
+- **Source:** Since this is an in-progress project, the data source will not be made public until the project is completed.
+- **Size:** ~over 3000 participants  
 - **Features:** Psychosocial scale scores, demographic information  
-- **Target Variable:** Binary indicator of fatigue (PHQ symptom item 12, recoded)
+- **Target Variable:**  Binary indicators for 13 symptoms from the PHQ questionnaire
 
 **Note:**  
 The dataset is included in `data/` for reproducibility. Only variables necessary for model training are kept.
