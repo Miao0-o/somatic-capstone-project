@@ -7,7 +7,7 @@
 **Tech Stack:** Python, TensorFlow/Keras, Pandas, Scikit-learn, Matplotlib 
 
 ## Project Overview
-This project aims to predict **fatigue**, a common somatic symptom, using psychosocial and demographic variables from the publicly available **EAMMi2 dataset** (Grahe et al., 2018).  
+This project aims to predict **fatigue**, a common somatic symptom, using psychosocial and demographic variables data.  
 Two main modeling approaches are implemented and compared:
 1. **Traditional machine learning models** (Random Forest, Logistic Regression, K-Nearest Neighbors)
 2. **Neural network models** (Feedforward network with Keras/TensorFlow)
