@@ -1,0 +1,13 @@
+{
+  "symptom_code": "physSx_9",
+  "symptom_name": "Shortness of breath",
+  "best_model": "LR-L1",
+  "balanced_accuracy": 0.639,
+  "roc_auc": 0.683,
+  "f1_score": 0.535,
+  "timestamp": "2025-12-03T02:19:03.363915",
+  "hyperparameters": {
+    "C": 0.1,
+    "penalty": "l1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "symptom_code": "physSx_4",
+  "symptom_name": "Headache",
+  "best_model": "StackingEnsemble",
+  "balanced_accuracy": 0.573,
+  "roc_auc": 0.685,
+  "f1_score": 0.806,
+  "timestamp": "2025-12-03T02:19:03.299357"
+}

@@ -1,0 +1,9 @@
+{
+  "symptom_code": "physSx_8",
+  "symptom_name": "Heart pound/race",
+  "best_model": "ExtraTrees",
+  "balanced_accuracy": 0.622,
+  "roc_auc": 0.657,
+  "f1_score": 0.602,
+  "timestamp": "2025-12-03T02:44:08.370216"
+}

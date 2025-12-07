@@ -1,0 +1,9 @@
+{
+  "symptom_code": "physSx_2",
+  "symptom_name": "Back pain",
+  "best_model": "StackingEnsemble",
+  "balanced_accuracy": 0.579,
+  "roc_auc": 0.609,
+  "f1_score": 0.672,
+  "timestamp": "2025-12-03T02:44:08.352233"
+}

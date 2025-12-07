@@ -1,0 +1,9 @@
+{
+  "symptom_code": "physSx_11",
+  "symptom_name": "Nausea/gas/indigestion",
+  "best_model": "TabNet-Deep",
+  "balanced_accuracy": 0.62,
+  "roc_auc": 0.629,
+  "f1_score": 0.652,
+  "timestamp": "2025-12-03T02:44:08.380225"
+}

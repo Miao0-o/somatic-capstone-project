@@ -1,0 +1,13 @@
+{
+  "symptom_code": "physSx_6",
+  "symptom_name": "Dizziness",
+  "best_model": "LR-L1",
+  "balanced_accuracy": 0.654,
+  "roc_auc": 0.701,
+  "f1_score": 0.547,
+  "timestamp": "2025-12-03T02:19:03.338041",
+  "hyperparameters": {
+    "C": 0.1,
+    "penalty": "l1"
+  }
+}

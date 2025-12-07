@@ -1,0 +1,14 @@
+Symptom,Model,AUC,Accuracy,Balanced_Accuracy,Macro_F1,Weighted_F1
+physSx_1,LR-ElasticNet,0.65,0.62,0.61,0.61,0.62
+physSx_10,LR-ElasticNet,0.57,0.57,0.56,0.56,0.58
+physSx_11,LR-ElasticNet,0.63,0.58,0.58,0.58,0.58
+physSx_12,LR-ElasticNet,0.75,0.68,0.68,0.57,0.73
+physSx_13,LR-ElasticNet,0.7,0.63,0.64,0.62,0.65
+physSx_2,LR-ElasticNet,0.64,0.59,0.59,0.59,0.59
+physSx_3,LR-ElasticNet,0.6,0.57,0.57,0.57,0.57
+physSx_4,LR-ElasticNet,0.61,0.56,0.58,0.55,0.58
+physSx_5,LR-ElasticNet,0.68,0.64,0.63,0.58,0.67
+physSx_6,LR-ElasticNet,0.68,0.63,0.62,0.61,0.64
+physSx_7,LR-ElasticNet,0.62,0.66,0.6,0.48,0.74
+physSx_8,LR-ElasticNet,0.7,0.63,0.63,0.63,0.63
+physSx_9,LR-ElasticNet,0.68,0.64,0.63,0.62,0.65

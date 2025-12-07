@@ -1,0 +1,13 @@
+{
+  "symptom_code": "physSx_5",
+  "symptom_name": "Chest pain",
+  "best_model": "LR-L1",
+  "balanced_accuracy": 0.601,
+  "roc_auc": 0.651,
+  "f1_score": 0.398,
+  "timestamp": "2025-12-03T02:19:03.310148",
+  "hyperparameters": {
+    "C": 0.1,
+    "penalty": "l1"
+  }
+}

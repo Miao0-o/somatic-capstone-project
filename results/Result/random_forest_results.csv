@@ -1,0 +1,14 @@
+Variable,Best_RF,Best_F1
+physSx_12,"{'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.932
+physSx_13,"{'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.801
+physSx_4,"{'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.797
+physSx_2,"{'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.656
+physSx_3,"{'classifier__max_depth': None, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}",0.603
+physSx_8,"{'classifier__max_depth': 3, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}",0.582
+physSx_11,"{'classifier__max_depth': 5, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.582
+physSx_1,"{'classifier__max_depth': 5, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}",0.572
+physSx_9,"{'classifier__max_depth': 3, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.512
+physSx_6,"{'classifier__max_depth': 3, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}",0.478
+physSx_10,"{'classifier__max_depth': 3, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}",0.472
+physSx_5,"{'classifier__max_depth': 3, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}",0.394
+physSx_7,"{'classifier__max_depth': 5, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}",0.208

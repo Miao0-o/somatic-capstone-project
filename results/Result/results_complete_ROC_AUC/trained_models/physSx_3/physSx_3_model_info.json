@@ -1,0 +1,9 @@
+{
+  "symptom_code": "physSx_3",
+  "symptom_name": "Limb/joint pain",
+  "best_model": "TabNet-Deep",
+  "balanced_accuracy": 0.604,
+  "roc_auc": 0.625,
+  "f1_score": 0.624,
+  "timestamp": "2025-12-03T02:44:08.353720"
+}

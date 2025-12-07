@@ -1,0 +1,13 @@
+{
+  "symptom_code": "physSx_1",
+  "symptom_name": "Stomach pain",
+  "best_model": "LR-L1",
+  "balanced_accuracy": 0.599,
+  "roc_auc": 0.637,
+  "f1_score": 0.587,
+  "timestamp": "2025-12-03T02:44:08.341460",
+  "hyperparameters": {
+    "C": 0.1,
+    "penalty": "l1"
+  }
+}
