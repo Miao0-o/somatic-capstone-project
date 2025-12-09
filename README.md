@@ -1,6 +1,6 @@
 # somatic-capstone-project
 
-**Author:** Miao Yu 
+**Author:** Miao Yu & Jessica Tanchone
 **Project Type:** Data Science / Machine Learning  
 **Tech Stack:** Python, TensorFlow/Keras, Pandas, Scikit-learn, Matplotlib 
 
